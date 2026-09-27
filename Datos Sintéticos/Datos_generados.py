@@ -2,7 +2,7 @@ import json
 import random
 import time
 
-# Configuración de Semilla para Garantizar Reproducibilidad
+#Configuración de Semilla para Garantizar Reproducibilidad
 SEED = 42
 random.seed(SEED)
 

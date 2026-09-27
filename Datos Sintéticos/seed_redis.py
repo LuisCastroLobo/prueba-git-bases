@@ -1,7 +1,7 @@
 import json
 import redis
 
-# Conexión a Redis local en el puerto 6380
+#Conexión a Redis local en el puerto 6380
 r = redis.Redis(host='localhost', port=6380, db=0, decode_responses=True)
 
 def cargar_datos_a_redis():
