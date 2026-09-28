@@ -72,7 +72,7 @@ if __name__ == "__main__":
     info_inicial = consultar_disponibilidad(EVENTO, ZONA)
     print(f"   Stock inicial en {EVENTO} ({ZONA}): {info_inicial['disponibilidad_actual']} entradas.")
 
-    print("\n2. Creando reserva temporal de 4 entradas con TTL de 5 segundos...")
+    print("\n2. Creando reserva temporal de 4 entradas con TTL de 20 segundos...")
     reserva = crear_reserva_temporal(USUARIO, EVENTO, ZONA, cantidad=4, ttl_segundos=20)
     print(f"   Resultado: {reserva}")
 
